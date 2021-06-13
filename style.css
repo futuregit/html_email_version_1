@@ -3,6 +3,12 @@ body {
     top: 3rem;
     left: 30rem;
 }
+div.summary {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+
+}
 div.title {
     display: block;
 }
@@ -11,10 +17,35 @@ div.title {
     border: 1px solid gray;
 }
 
+.list {
+   flex-basis: auto;
+   width: 800px;  /* Or whatever */
+    height: auto;
+   /* background-color: brown; */
+}
+
 ul li {
-    position: relative;
-    display: block;
-    border: 1px solid gray;
     list-style-type: none;
     right: 2rem;
 }
+
+.compose {
+    color: red;
+    background-color: azure;
+    border-radius: 25%;
+    position: fixed;
+    bottom: 3rem;
+    left: 35rem; 
+    z-index: 1;
+    padding: .8rem .5rem;
+
+}
+
+.tag {
+    background-color: cadetblue;
+    border-radius: 50%;
+    padding: 1rem;
+    float: left;
+}
+
+ul h4 {}
