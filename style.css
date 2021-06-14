@@ -39,6 +39,7 @@ ul li {
 }
 
 .tag {
+    flex-grow: 1;
     background-color: cadetblue;
     border-radius: 50%;
     padding: 1rem;
@@ -55,11 +56,27 @@ ul li {
 }
 
 .list {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .grouping {
     display: flex;
-    flex-direction: row;
 }
+
+.product-filter {
+    display: flex;
+  }
+
+  .product-filter h1 {
+    flex-grow: 1;
+  }
+
+  .sort {
+    display: flex;
+  }
+
+  .collection-sort {
+    display: flex;
+    flex-direction: column;
+  }
