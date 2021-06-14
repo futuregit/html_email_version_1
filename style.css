@@ -1,7 +1,8 @@
 body {
     position: absolute;
     top: 3rem;
-    left: 30rem;
+    left: 10rem;
+    right: 10rem;
 }
 div.summary {
     display: flex;
@@ -10,9 +11,7 @@ div.summary {
     max-width: fit-content;
 
 }
-div.title {
-    display: block;
-}
+
 
 .search {
     border: 1px solid gray;
@@ -46,9 +45,14 @@ ul li {
     float: left;
 }
 
+.time {
+    float: right;
+    flex-grow: 1;
+}
+
 .read {
     display: flex;
-    flex: column nowrap;
+    flex-direction: column;
 }
 
 .grouping.title {
@@ -56,14 +60,17 @@ ul li {
 }
 
 .list {
-    /* display: flex;
-    flex-direction: column; */
+    width: 100%;
 }
 
-.grouping {
-    display: flex;
-}
+h2 {
+    display: inline;
+  }
 
+/* .time {
+    float: right;
+} */
+  
 .product-filter {
     display: flex;
   }
